@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário </title>
+     <style>
+        fieldset{
+            width:50%;
+            border:2px solid black#000;
+            padding: 10px;
+            margin: 10px;
+        }
+        legend {
+            padding: 0 10px;
+            front-weight:lighter;
+        }
+    </style>
+ 
+
+</head>
+<body>
+<div>
+    
+    <fieldset>
+        <legend>Dados pessoais</legend>
+         <form>
+    
+        <label for="iptNome">Nome: </label>
+        <input type="text" id="iptNome" name="nome" > <br>
+
+        <label for="iptNasc">Data de Nascimento: </label>
+        <input type="date" id="iptNasc" name="data de nascimento" > <br>
+
+        <label for="iptEndereco">Endereço: </label>
+        <input type="text" id="iptEndereco" name="endereco" ><br>
+
+        <label for="iptBairro">Bairro: </label>
+        <input type="text" id="iptBairro" name="bairro" > <br>
+
+        <label for="iptCidade">Cidade: </label>
+        <input type="text" id="iptCidade" name="cidade" > <br>
+
+        <label for="iptCEP">CEP: </label>
+        <input type="text" id="iptCEP" name="cep"><br>
+
+        <label for="slcEstado">Estado: </label>
+        <select id="slcEstado" name="estado" >
+            <option value="" selected disabled>Selecione o estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select> <br> <hr>
+        <legend>Dados profissionais</legend>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </div>
+    </form>
+  </fieldset>
+</body>
+</html>
