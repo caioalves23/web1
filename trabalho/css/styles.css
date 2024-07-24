@@ -1,0 +1,179 @@
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.curso {
+    margin-bottom: 30px;
+}
+
+.curso-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.curso-info h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.curso-info p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 1.2em;
+}
+
+.curso-info .curso-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.curso-info .curso-link:hover {
+    background-color: #0056b3;
+}
+
+.curso-info img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.coordenador {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.curso-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.curso-info h3 {
+    color: #333;
+    font-size: 24px;
+}
+
+.curso-info p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 1.2em; /* Aumentar espaço entre parágrafos */
+}
+
+
+.curso-info .curso-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.curso-info .curso-link:hover {
+    background-color: #0056b3;
+}
+
+
+.curso-info img {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.coordenador {
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
