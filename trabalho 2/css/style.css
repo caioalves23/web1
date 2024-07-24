@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.ambiente {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.ambiente.ocupado {
+    background-color: red;
+    color: white;
+}
+
+.ambiente.livre {
+    background-color: green;
+    color: white;
+}
+
+.ambiente.manutencao {
+    background-color: black;
+    color: white;
+}
+
+.ambiente span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+}
